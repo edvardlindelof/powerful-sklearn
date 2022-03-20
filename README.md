@@ -83,7 +83,7 @@ model2str = lambda model: type(model).__name__
 df['param_classifier'] = df['param_classifier'].apply(model2str)
 df.filter(regex='param_|mean_test_selection-criterion')
 ```
-|    | param_classifier       |   param_classifier__bootstrap |   param_classifier__max_depth |   param_classifier__C | param_classifier__kernel   |   mean_test_selection-criterion |
+|    | param_classifier       |   param _classifier __bootstrap |   param _classifier __max_depth |   param _classifier __C | param _classifier __kernel   |   mean_test _selection-criterion |
 |---:|:-----------------------|------------------------------:|------------------------------:|----------------------:|:---------------------------|--------------------------------:|
 |  0 | RandomForestClassifier |                             1 |                             3 |                 nan   | nan                        |                        0.786414 |
 |  1 | RandomForestClassifier |                             1 |                            20 |                 nan   | nan                        |                        0.743816 |
